@@ -122,7 +122,10 @@
 
 
                     <div class="coures-card">
-                        <img src="images/javascript.jpg" alt="Image 1">
+
+                      
+
+                        <img src="images/javascript.jpg" alt="Image 1" onclick="redirectToPage('details.html')">
                         <div class="card-content">
                             <p class="card-description">Web Development Languages</p>
                             <h2>JavaScript</h2>
@@ -554,6 +557,12 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        function redirectToPage(destination) {
+            window.location.href = destination;
+        }
+    </script>
 </body>
 
 </html>
