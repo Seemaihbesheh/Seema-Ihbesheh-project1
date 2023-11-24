@@ -409,6 +409,8 @@ body {
 
 
 
+
+
 @media only screen and (max-width: 600px) {
     body {
         padding: 5px; 
@@ -459,8 +461,8 @@ width: 40px;
 
 }
 .search ion-icon{
-
-
+ 
+    font-size: 0px;
 }
 .search input {
     height: 50px; 
@@ -472,21 +474,25 @@ width: 40px;
     align-items: center; 
     margin-right: 10px; 
     height: 50px;
+    width: 103%;
 }
 
 .search .dropdown-container div {
-    width: 100%;
+    
     height: 40%;
-    border: 1px solid #ccc; 
+    border: none; 
+
 }
 
 
-.search .dropdown-container label {
+
+.dropdown-label{
     border: none;
     margin-right: 10px;
 }
 
 .search-res {
+  
     margin-left: 10px;
     margin-right: 10px;
 }
