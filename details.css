@@ -467,6 +467,27 @@ color: var(--white-color);}
 
 @media only screen and (max-width: 900px) {
    
+    body {
+        padding: 5px; 
+    }
+
+    .container {
+        align-items: left; 
+    }
+
+    .header {
+        margin-left: 5px; 
+    }
+
+    .header label {
+        font-size: 20px; 
+        margin-left: 5px; 
+    }
+    .header button{
+        font-size: 0; 
+    width: 40px;
+    margin-right: 0px;
+    }
     .topic-card {
         margin-left: 0;
         width: 90%;
@@ -499,3 +520,65 @@ color: var(--white-color);}
     }
 }
 
+
+@media only screen and (min-width: 601px) and (max-width: 1324px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .header {
+        margin-left: 10px;
+    }
+
+    .header label {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .header button {
+        font-size: 0px;
+        width: 40px;
+        margin-right: 0px;
+        margin-left: 5px;
+
+    }
+
+    .topic-card {
+        margin-left: 5%;
+        width: 80%;
+        height: auto;
+    }
+
+    .about-topic {
+        width: 100%;
+       
+    }
+    .info-topic p{
+    width: 100%;
+    }
+
+    .fav-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 40%;
+        margin-left: 30%;
+      
+    }
+
+    .fav-image {
+        height: 150px;
+    }
+    .list-topics div{
+        width: 50%;
+    }
+}
